@@ -4,7 +4,7 @@
 
 ## Lab Exercises 
 
-- [ ] run ``python imdb.py`` and note somewhere the test accuracy score **
+- [ ] run ``python imdb.py`` and note somewhere the test accuracy score 
  *It is too slow
 - [ ] Modify the code to add one more layer of 64 ``relu`` units after the embedding layer record the score (i.e. add a dense followed by an "activation" layer)
 *Finished. This is similar with last labs.
