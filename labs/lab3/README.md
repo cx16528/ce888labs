@@ -1,33 +1,8 @@
 # Lab3
 
-## Setting up 
-* Do the following from the unix prompt of your VM
-	* Go to the directory you "cloned" the module files last time
-	* Do `git pull origin master' to bring the new files
 
-* Do the following tasks using your windows share or your unix account in the VM	
-	* Copy the lab files from the module directory into your own github lab directory, in "lab3" folder
-	* Remove everything from the copied README.md
 
-## ipython/jupiter
-
-* Start ipython/jupiter by typing `ipython notebook --ip='*'`
-* Start a browser and connect to `http://mlvm:8888/`
-	* You will need to input the token that was provided to you when you started ipython (looks like "c3fad33a4d227d5f395f6b2ce5de34c05b2dfa0ca516b36f" (NOT THIS ONE))
-* Using the web page, go to lab3
-
-## Ipython notebooks
-
-* Inside `lab3` you will see two ipython notebooks
-* Open them and see what is inside
-	* facebook_regression.ipynb
-	* facebook_classification.ipynb
-
-* Creating new ipython notebook
 	
-* Check the dataset 
-	* [https://archive.ics.uci.edu/ml/datasets/Bank+Marketing](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
-	* ``bank-additional-full.csv`` in your lab directory
 
 Attribute Information:
 
@@ -70,8 +45,10 @@ In the Ipython notebook you created
 - [ ] Load the data from `bank-additional-full.csv`
 - [ ] Use a classifier (anything, but `ExtraTreesClassifier` with 100 estimators is the easiest option) on the data with outcome/output variable "y"
     * Convert to dummies using `df_dummies = pd.get_dummies(df)`
-    * Columns "y_no" and "duration" must be deleted - use something like `del df_copy["attribute"]` for this
+    
+    * Columns "y_no" and "duration" must be deleted - use something like `del df_copy["attribute"]` for this
     * Plot histogram of the label `y_yes`
+    
     * Get the values and run a classifier (with outcome `y_yes`)
     * Report the results of 10-Kfold stratified cross-validation
     * Get sample importances and a confusion matrix
