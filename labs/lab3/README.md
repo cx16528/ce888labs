@@ -48,7 +48,7 @@ In the Ipython notebook you created
     
     * Columns "y_no" and "duration" must be deleted - use something like `del df_copy["attribute"]` for this
     * Plot histogram of the label `y_yes`
-    
+    ![histogram](./histogram.png?raw=true)
     * Get the values and run a classifier (with outcome `y_yes`)
     * Report the results of 10-Kfold stratified cross-validation
     * Get sample importances and a confusion matrix
