@@ -15,4 +15,4 @@
 - [ ] Modify the code and add an LSTM layer in place of the convolution layer
 - Finished. Finding that the LSRM layer and Convolution layer cannot put together derectly.
 - [ ] (Optional - and quite advanced) use both an LSTM layer and a Convolution layer and merge the results with a Merge layer
-- Finished. Using the merge of keras to contact LSTM model and Convolution model together and creating a final model with both of them function. Because of it spending a long time I did not get the final scores.
+- Finished. Using the merge of keras to contact LSTM model and Convolution model together and creating a final model with both of them function. Because of it spending a long time I did not get the final scores. Everyone is more than 800 seconds.
