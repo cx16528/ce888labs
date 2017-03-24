@@ -50,11 +50,14 @@ In the Ipython notebook you created
     * Plot histogram of the label `y_yes`
     ![histogram](./histogram.png?raw=true)
     * Get the values and run a classifier (with outcome `y_yes`)
-
+	* the value is 0.899121103234
     * Report the results of 10-Kfold stratified cross-validation
         * ACC: 0.83314456 (+/- 0.16741069)
+	* Dummy ACC: 0.80
     * Get sample importances and a confusion matrix
     ![histogram](./importances.png?raw=true)
+    ![histogram](./confusion.png?raw=true)
+    
     
 
 
